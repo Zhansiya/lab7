@@ -5,7 +5,7 @@ pygame.init()
 screen = pygame.display.set_mode((400, 200))
 pygame.display.set_caption("Music Player")
 
-songs = ["16_qyz.mp3", "song2.mp3", "song3.mp3"]  # ← put your filenames here
+songs = ["16_qyz.mp3", "song2.mp3", "song3.mp3"]  
 current_song = 0
 
 pygame.mixer.init()
